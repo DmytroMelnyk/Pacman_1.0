@@ -1,9 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pacman_1", "pacman_1\pacman_1.csproj", "{F313A369-6C02-4257-BCF2-247656C63309}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pacman_2", "pacman_2_StringBuilder\pacman_2.csproj", "{8C090F79-B4D3-4482-BAF4-2D1AA79248E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pacman_1", "pacman_1.csproj", "{F313A369-6C02-4257-BCF2-247656C63309}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		{F313A369-6C02-4257-BCF2-247656C63309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F313A369-6C02-4257-BCF2-247656C63309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F313A369-6C02-4257-BCF2-247656C63309}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C090F79-B4D3-4482-BAF4-2D1AA79248E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C090F79-B4D3-4482-BAF4-2D1AA79248E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C090F79-B4D3-4482-BAF4-2D1AA79248E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C090F79-B4D3-4482-BAF4-2D1AA79248E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

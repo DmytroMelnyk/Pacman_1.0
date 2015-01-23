@@ -14,25 +14,20 @@ namespace pacman_1
         static void Main(string[] args)
         {
             //create map
-            // first commit
             
             Map map = new Map("H:/VS2012Proj/PACMAN/pacman_1/maps/map_1.xml", 2);
             SetConsoleWindow(map);
 
             while (true)
             {
+                
                 Thread.Sleep(250);
+                //map.ChangePacmanDirection();
                 map.ChangeMap();
                 if (map.isWinGame)
                 {
                     Console.Clear();
                     Console.WriteLine("YOU WIN!!!");
-                    break;
-                }
-                if (map.isGameOver)
-                {
-                    Console.Clear();
-                    Console.WriteLine("GAME OVER!!!");
                     break;
                 }
             }

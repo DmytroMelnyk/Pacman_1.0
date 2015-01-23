@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F313A369-6C02-4257-BCF2-247656C63309}</ProjectGuid>
+    <ProjectGuid>{8C090F79-B4D3-4482-BAF4-2D1AA79248E2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>pacman_1</RootNamespace>
