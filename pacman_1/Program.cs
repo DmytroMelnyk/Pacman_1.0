@@ -14,7 +14,7 @@ namespace pacman_1
         static void Main(string[] args)
         {
             //create map
-            // first commit
+            // second commit
             
             Map map = new Map("H:/VS2012Proj/PACMAN/pacman_1/maps/map_1.xml", 2);
             SetConsoleWindow(map);
