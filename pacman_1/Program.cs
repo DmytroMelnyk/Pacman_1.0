@@ -16,6 +16,7 @@ namespace pacman_1
             //create map
             // second commit
             // third commit
+            // fourth commit from GitBash
             Map map = new Map("H:/VS2012Proj/PACMAN/pacman_1/maps/map_1.xml", 2);
             SetConsoleWindow(map);
 
