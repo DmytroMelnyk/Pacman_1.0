@@ -25,10 +25,11 @@ namespace pacman_1
         public int x;
         public int y;
         public Direction direction;
+        public bool upMove, rightMove, downMove, leftMove;
                 
         //methods
 
-        public virtual void Move() 
+        public void Move() 
         {
             switch (direction)
             {
@@ -49,13 +50,7 @@ namespace pacman_1
 
     class Pacman : Entity
     {
-        // fields
-
-        //char face;
-        //public int x;
-        //public int y;
-        //public Direction direction;
-
+        
         // properties
 
         public char Face { get { return face; } }
